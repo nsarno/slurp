@@ -6,6 +6,7 @@ A ruby script to import and decode base64 images.
 ### Install
 
 ```bash
+$ gem install json
 $ gem install open-uri
 $ gem install data_uri
 ```
