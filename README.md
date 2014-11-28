@@ -3,12 +3,16 @@ Slurp
 
 A ruby script to import and decode base64 images.
 
-### Usage
+### Install
 
 ```bash
 $ gem install open-uri
 $ gem install data_uri
 ```
+
+### Usage
+
+To import and decode `http://myurl/image1.json`, `http://myurl/image2.json` and `http://myurl/image3.json`, use the `slurp` function as follow :
 
 ```ruby
 slurp 'http://myurl', ['image1', 'image2', 'image3']
